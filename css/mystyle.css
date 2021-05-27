@@ -15,6 +15,14 @@
     font-family: 'Montserrat', sans-serif;;
     font-weight: 900;
 }
+.nav-item:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 50%;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
@@ -57,6 +65,21 @@
 
 #sosmed{
     padding: 10px;
+}
+
+.card:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+    transition: 0.3s;
+    border-radius: 5%;
+}
+.card-berita:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #888888;
+    transition: 0.3s;
+    border-radius: 5%;
 }
 
 .text2{
